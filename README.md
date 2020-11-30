@@ -1,4 +1,4 @@
-# <p align="center"> Courses in SoftUni <p>
+# <p align="center"> Courses from the program in SoftUni <p>
 
 <a href="https://softuni.bg/trainings/courses" rel="Courses"> ![SoftUni logo][logo] </a>
 
