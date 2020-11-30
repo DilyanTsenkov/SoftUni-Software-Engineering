@@ -8,5 +8,5 @@ for i in range(len(single_string_list)):
 for i in range(len(single_string_list)):
     if single_string_list[i] == 0:
         single_string_list.append(single_string_list.pop(single_string_list.index(0)))
-        
+
 print(single_string_list)
