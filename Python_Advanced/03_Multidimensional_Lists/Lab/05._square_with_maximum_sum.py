@@ -7,16 +7,16 @@ def matrix_creator(rows_fun):
 
 
 def max_finder(matrix_fun, rows_fun, columns_fun):
-    max_one = 0
+    max_sum = 0
     for row in range(rows_fun - 1):
         for column in range(columns_fun - 1):
             first = matrix_fun[row][column]
             second = matrix_fun[row][column + 1]
             third = matrix_fun[row + 1][column]
             fourth = matrix_fun[row + 1][column + 1]
-            sums = first + second + third + fourth
-            if max_one < sums:
-                max_one = sums
+            current_sum = first + second + third + fourth
+            if max_sum < current_sum:
+                max_sum = current_sum
                 square_fun = first, second, third, fourth
     return square_fun
 
