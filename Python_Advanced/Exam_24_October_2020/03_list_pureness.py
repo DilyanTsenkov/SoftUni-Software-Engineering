@@ -15,8 +15,7 @@ def best_list_pureness(*test):
             max_sum = summing
             current_rotation = rotation
         rotation += 1
-        last_number = numbers.pop()
-        numbers.appendleft(last_number)
+        numbers.rotate(1)
     return f"Best pureness {max_sum} after {current_rotation} rotations"
 
 
