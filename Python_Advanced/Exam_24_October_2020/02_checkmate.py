@@ -5,9 +5,10 @@ def board_creator():
 
 def king_place(chess_board):
     for row in range(8):
-        for col in range(8):
-            if chess_board[row][col] == "K":
-                return row, col
+        if "K" in chess_board[row]:
+            col = chess_board[row].index("K")
+            break
+    return row, col
 
 
 def row_checker(chess_board, k_row, k_col, queens_can_capture):
