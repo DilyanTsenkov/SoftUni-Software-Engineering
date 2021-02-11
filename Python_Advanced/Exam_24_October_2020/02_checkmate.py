@@ -34,7 +34,8 @@ def col_checker(chess_board, k_row, k_col, queens_can_capture):
     return queens_can_capture
 
 
-def diagonals_checker(chess_board, k_row, k_col, signs, queens_can_capture):
+def diagonals_checker(chess_board, k_row, k_col, queens_can_capture):
+    signs = [1, 1, 1, -1, -1, 1, -1, -1]
     for _ in range(4):
         temp_r = k_row + signs[0]
         temp_c = k_col + signs[1]
@@ -62,6 +63,5 @@ chess_board = board_creator()
 k_row, k_col = king_place(chess_board)
 queens_can_capture = row_checker(chess_board, k_row, k_col, queens_can_capture)
 queens_can_capture = col_checker(chess_board, k_row, k_col, queens_can_capture)
-signs = [1, 1, 1, -1, -1, 1, -1, -1]
-diagonals_checker(chess_board, k_row, k_col, signs, queens_can_capture)
+diagonals_checker(chess_board, k_row, k_col, queens_can_capture)
 printer(queens_can_capture)
