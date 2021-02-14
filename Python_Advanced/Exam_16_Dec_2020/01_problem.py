@@ -1,24 +1,34 @@
 from collections import deque
 
 
-def female_male_0(females_males):
-    while females_males and females_males[-1] <= 0:
-        females_males.pop()
-    return females_males
+def male_0(males):
+    while males and males[-1] <= 0:
+        males.pop()
+    return males
 
 
-def female_male_25(females_males):
-    while females_males and females_males[-1] % 25 == 0:
-        females_males.pop()
-        if not females_males:
+def female_0(females):
+    while females and females[0] <= 0:
+        females.popleft()
+    return females
+
+
+def male_25(males):
+    while males and males[-1] % 25 == 0:
+        males.pop()
+        if not males:
             break
-        females_males.pop()
-    return females_males
+        males.pop()
+    return males
 
 
-def no_males_or_females(females_males):
-    if not females_males:
-        return True
+def female_25(females):
+    while females and females[0] % 25 == 0:
+        females.popleft()
+        if not females:
+            break
+        females.popleft()
+    return females
 
 
 def male_female_compare(males, females, matches):
@@ -48,21 +58,21 @@ def printer(males, females, matches):
         print("Females left: none")
 
 
-males = deque(int(el) for el in input().split())
+males = [int(el) for el in input().split()]
 females = deque(int(el) for el in input().split())
 matches = 0
 while males and females:
-    males = female_male_0(males)
-    if no_males_or_females(males):
+    males = male_0(males)
+    if not males:
         break
-    females = female_male_0(females)
-    if no_males_or_females(females):
+    females = female_0(females)
+    if not females:
         break
-    female_male_25(males)
-    if no_males_or_females(males):
+    males = male_25(males)
+    if not males:
         break
-    female_male_25(females)
-    if no_males_or_females(females):
+    females = female_25(females)
+    if not females:
         break
     males, females, matches = male_female_compare(males, females, matches)
 printer(males, females, matches)
