@@ -20,7 +20,7 @@
 <tr>
 <td>
 
-| **Course**                                                                                                                         | **Link**                                                                   |
+| **Course**                                                                                                                         | **Certificate**                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/2965/programming-basics-with-python-may-2020"> Programming Basics with Python </a>           | <a href="https://softuni.bg/certificates/details/84104/c0760ed8">Certificate</a> |
 | <a href="https://softuni.bg/trainings/3132/python-fundamentals-september-2020"> Python Fundamentals </a>                           | <a href="https://softuni.bg/certificates/details/97168/5e1a26d4">Certificate</a> |
@@ -30,9 +30,9 @@
 </td>
 <td>
 
-| **Course**                                                                                  | **Link**                                                                    |
+| **Course**                                                                                  | **Certificate**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| <a href="https://softuni.bg/trainings/3040/programming-basics-with-javascript-july-2020"> Programming Basics with JavaScript  </a> | <a href="https://softuni.bg/certificates/details/88395/bcb41b63"> Link</a> |
+| <a href="https://softuni.bg/trainings/3040/programming-basics-with-javascript-july-2020"> Programming Basics with JavaScript  </a> | <a href="https://softuni.bg/certificates/details/88395/bcb41b63"> Certificate</a> |
 
 </td>
 </tr>
