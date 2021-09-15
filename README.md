@@ -36,7 +36,7 @@
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3040/programming-basics-with-javascript-july-2020"> Programming Basics with JavaScript  </a> | <a href="https://softuni.bg/certificates/details/88395/bcb41b63"> Certificate</a> |
 | <a href="https://softuni.bg/trainings/3487/js-advanced-september-2021">
-JS Advanced - септември 2021  </a> | <a href=""> Certificate</a> |
+JS Advanced - септември 2021  </a> | <a>In progress</a> |
 
 </td>
 </tr>
