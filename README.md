@@ -35,7 +35,7 @@
 | **Course**                                                                                  | **Certificate**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3040/programming-basics-with-javascript-july-2020"> Programming Basics with JavaScript  </a> | <a href="https://softuni.bg/certificates/details/88395/bcb41b63"> Certificate</a> |
-| <a href="https://softuni.bg/modules/76/js-advanced/1300"> МОДУЛ
+| <a href="https://softuni.bg/trainings/3487/js-advanced-september-2021">
 JS Advanced - септември 2021  </a> | <a href=""> Certificate</a> |
 
 </td>
