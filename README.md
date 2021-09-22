@@ -26,6 +26,7 @@
 | <a href="https://softuni.bg/trainings/3132/python-fundamentals-september-2020"> Python Fundamentals </a>                           | <a href="https://softuni.bg/certificates/details/97168/5e1a26d4">Certificate</a> |
 | <a href="https://softuni.bg/trainings/3219/python-advanced-january-2021"> Python Advanced </a>           | <a href="https://softuni.bg/certificates/details/97632/6d61b2b0"> Certificate</a> |
 | <a href="https://softuni.bg/trainings/3220/python-oop-february-2021"> Python OOP </a>           | <a href="https://softuni.bg/certificates/details/104037/af1ef090"> Certificate</a> |
+| <a href="https://softuni.bg/trainings/3355/python-web-basics-may-2021"> Python WEB </a>           | <a href="https://softuni.bg/certificates/details/110815/a62c1510"> Certificate</a> |
 
 
 </td>
@@ -34,6 +35,7 @@
 | **Course**                                                                                  | **Certificate**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3040/programming-basics-with-javascript-july-2020"> Programming Basics with JavaScript  </a> | <a href="https://softuni.bg/certificates/details/88395/bcb41b63"> Certificate</a> |
+| <a href="https://softuni.bg/trainings/3487/js-advanced-september-2021"> JS Advanced - септември 2021  </a> | <a>In progress</a> |
 
 </td>
 </tr>
